@@ -3,45 +3,46 @@
 
  To sort it install a browser extension/script which allows sorting github tables. [Github Sort Content](https://github.com/Mottie/GitHub-userscripts/wiki/GitHub-sort-content) for example.
 
-| Name | average_coverage | average_encumbrance | average_resist | armor_efficiency | layer |
+## Torso
+| Name | Coverage | Encumbrance | Resist | Efficiency | Layer |
 |-----|-----|-----|-----|-----|-----|
 | ammo pouch | 10 | 5 | 2.0 | 0.4 | WAIST |
 | ammo satchel | 20 | 4 | 2.0 | 1.0 | WAIST |
-| chest ammo pouch | 15 | 0 | 2.0 | 3.0 | BELTED |
-| chest rig | 15 | 0 | 2.0 | 3.0 | BELTED |
-| javelin bag | 30 | 10 | 8.0 | 2.4 | BELTED |
-| large quiver | 15 | 3 | 4.0 | 2.0 | BELTED |
-| large birchbark quiver | 15 | 14 | 2.5 | 0.3 | BELTED |
-| tac vest | 51 | 2 | 2.0 | 5.1 | BELTED |
-| light load bearing vest | 33 | 0 | 1.5 | 4.9 | BELTED |
-| load bearing vest | 51 | 0 | 1.5 | 7.6 | BELTED |
-| heavy load bearing vest | 34 | 0 | 1.5 | 5.1 | BELTED |
+| chest ammo pouch | 15 | 0 | 2.0 | 3.0 | STRAPPED |
+| chest rig | 15 | 0 | 2.0 | 3.0 | STRAPPED |
+| javelin bag | 30 | 10 | 8.0 | 2.4 | STRAPPED |
+| large quiver | 15 | 3 | 4.0 | 2.0 | STRAPPED |
+| large birchbark quiver | 15 | 14 | 2.5 | 0.3 | STRAPPED |
+| tac vest | 51 | 2 | 2.0 | 5.1 | STRAPPED |
+| light load bearing vest | 33 | 0 | 1.5 | 4.9 | STRAPPED |
+| load bearing vest | 51 | 0 | 1.5 | 7.6 | STRAPPED |
+| heavy load bearing vest | 34 | 0 | 1.5 | 5.1 | STRAPPED |
 | tactical radio pouch | 10 | 0 | 0.5 | 0.5 | WAIST |
 | gadget pouch | 10 | 0 | 0.5 | 0.5 | WAIST |
 | H2O pouch | 10 | 0 | 0.5 | 0.5 | WAIST |
-| tactical tool pouch | 6 | 0 | 0.5 | 0.3 | BELTED |
+| tactical tool pouch | 6 | 0 | 0.5 | 0.3 | STRAPPED |
 | flashlight pouch | 10 | 0 | 0.5 | 0.5 | WAIST |
 | gas mask pouch | 10 | 0 | 0.5 | 0.5 | WAIST |
 | tactical grenade pouch | 10 | 0 | 0.5 | 0.5 | WAIST |
-| triple stacker ammo pouch | 6 | 0 | 0.5 | 0.3 | BELTED |
+| triple stacker ammo pouch | 6 | 0 | 0.5 | 0.3 | STRAPPED |
 | tactical shotshell pouch | 10 | 0 | 0.5 | 0.5 | WAIST |
 | XL Kevlar vest | 85 | 17 | 10.0 | 5.0 | OUTER |
 | ESAPI ballistic plate | 27 | 2 | 37.5 | 50.6 | MIDDLE |
 | ESBI ballistic plate | 14 | 1 | 37.5 | 52.5 | MIDDLE |
 | dragon skin vest | 95 | 8 | 12.8 | 15.2 | OUTER |
 | lamellar Kevlar vest | 25 | 6 | 5.0 | 2.1 | OUTER |
-| pistol bandolier | 6 | 1 | 2.0 | 1.2 | BELTED |
-| rifle bandolier | 6 | 1 | 2.0 | 1.2 | BELTED |
+| pistol bandolier | 6 | 1 | 2.0 | 1.2 | STRAPPED |
+| rifle bandolier | 6 | 1 | 2.0 | 1.2 | STRAPPED |
 | waist shotgun bandolier | 10 | 2 | 2.0 | 1.0 | WAIST |
-| torso shotgun bandolier | 12 | 3 | 2.0 | 0.8 | BELTED |
+| torso shotgun bandolier | 12 | 3 | 2.0 | 0.8 | STRAPPED |
 | paper cartridge pouch | 10 | 2 | 2.0 | 1.0 | WAIST |
-| large grenade pouch | 15 | 0 | 2.0 | 3.0 | BELTED |
+| large grenade pouch | 15 | 0 | 2.0 | 3.0 | STRAPPED |
 | judo belt template | 5 | 2 | 2.0 | 0.5 | WAIST |
 | leather belt | 5 | 0 | 6.0 | 3.0 | WAIST |
 | broad belt | 15 | 0 | 6.0 | 9.0 | WAIST |
 | tool belt | 20 | 2 | 4.0 | 4.0 | WAIST |
 | webbing belt | 5 | 0 | 5.2 | 2.6 | WAIST |
-| Foodperson's cape | 50 | 4 | 0.3 | 0.4 | BELTED |
+| Foodperson's cape | 50 | 4 | 0.3 | 0.4 | STRAPPED |
 | cloak | 65 | 4 | 0.4 | 0.7 | OUTER |
 | fur cloak | 65 | 6 | 1.2 | 1.3 | OUTER |
 | leather cloak | 65 | 6 | 3.0 | 3.2 | OUTER |
@@ -106,14 +107,14 @@
 | tuxedo | 95 | 13 | 0.5 | 0.4 | MIDDLE |
 | waistcoat | 60 | 2 | 0.5 | 1.5 | MIDDLE |
 | army winter jacket | 95 | 10 | 1.5 | 1.4 | OUTER |
-| back holster | 5 | 3 | 2.0 | 0.3 | BELTED |
-| baldric holster | 20 | 2 | 2.0 | 2.0 | BELTED |
-| bow sling | 2 | 3 | 1.0 | 0.1 | BELTED |
-| single point sling | 5 | 0 | 2.0 | 1.0 | BELTED |
+| back holster | 5 | 3 | 2.0 | 0.3 | STRAPPED |
+| baldric holster | 20 | 2 | 2.0 | 2.0 | STRAPPED |
+| bow sling | 2 | 3 | 1.0 | 0.1 | STRAPPED |
+| single point sling | 5 | 0 | 2.0 | 1.0 | STRAPPED |
 | pair of fishing waders | 100 | 19 | 4.0 | 2.1 | MIDDLE |
-| rolled sleeping bag | 10 | 20 | 4.0 | 0.2 | BELTED |
+| rolled sleeping bag | 10 | 20 | 4.0 | 0.2 | STRAPPED |
 | fur sleeping bag | 100 | 80 | 7.5 | 0.9 | OUTER |
-| rolled fur sleeping bag | 10 | 20 | 7.5 | 0.4 | BELTED |
+| rolled fur sleeping bag | 10 | 20 | 7.5 | 0.4 | STRAPPED |
 | tarpaulin | 90 | 30 | 0.2 | 0.1 | OUTER |
 | salvaged power armor | 95 | 40 | 48.0 | 11.4 | MIDDLE |
 | combat exoskeleton | 100 | 50 | 95.7 | 19.1 | MIDDLE |
@@ -124,44 +125,44 @@
 | abstract mantle | 34 | 2 | 12.0 | 20.4 | OUTER |
 | axe ring holster | 5 | 2 | 4.0 | 1.0 | WAIST |
 | baldric | 10 | 3 | 2.2 | 0.7 | WAIST |
-| back scabbard | 10 | 6 | 2.2 | 0.4 | BELTED |
-| spear strap | 5 | 2 | 2.0 | 0.5 | BELTED |
-| backpack | 30 | 2 | 2.0 | 3.0 | BELTED |
-| hiking backpack | 50 | 10 | 4.0 | 2.0 | BELTED |
-| giant novelty backpack | 24 | 15 | 2.0 | 0.3 | BELTED |
-| leather backpack | 30 | 4 | 6.0 | 4.5 | BELTED |
-| large tactical backpack | 50 | 10 | 4.0 | 2.0 | BELTED |
-| high-volume rucksack | 50 | 16 | 4.0 | 1.2 | BELTED |
-| daypack | 50 | 2 | 1.5 | 3.8 | BELTED |
-| dive bag | 40 | 2 | 2.0 | 4.0 | BELTED |
-| duffel bag | 50 | 5 | 2.0 | 2.0 | BELTED |
+| back scabbard | 10 | 6 | 2.2 | 0.4 | STRAPPED |
+| spear strap | 5 | 2 | 2.0 | 0.5 | STRAPPED |
+| backpack | 30 | 2 | 2.0 | 3.0 | STRAPPED |
+| hiking backpack | 50 | 10 | 4.0 | 2.0 | STRAPPED |
+| giant novelty backpack | 24 | 15 | 2.0 | 0.3 | STRAPPED |
+| leather backpack | 30 | 4 | 6.0 | 4.5 | STRAPPED |
+| large tactical backpack | 50 | 10 | 4.0 | 2.0 | STRAPPED |
+| high-volume rucksack | 50 | 16 | 4.0 | 1.2 | STRAPPED |
+| daypack | 50 | 2 | 1.5 | 3.8 | STRAPPED |
+| dive bag | 40 | 2 | 2.0 | 4.0 | STRAPPED |
+| duffel bag | 50 | 5 | 2.0 | 2.0 | STRAPPED |
 | tactical dump pouch | 10 | 1 | 0.8 | 0.8 | WAIST |
-| fanny pack | 4 | 1 | 0.2 | 0.1 | BELTED |
-| golf bag | 35 | 30 | 4.5 | 0.5 | BELTED |
-| jerrypack | 40 | 30 | 3.0 | 0.4 | BELTED |
+| fanny pack | 4 | 1 | 0.2 | 0.1 | STRAPPED |
+| golf bag | 35 | 30 | 4.5 | 0.5 | STRAPPED |
+| jerrypack | 40 | 30 | 3.0 | 0.4 | STRAPPED |
 | leather pouch | 15 | 1 | 0.2 | 0.3 | WAIST |
-| makeshift knapsack | 30 | 2 | 0.2 | 0.3 | BELTED |
-| makeshift sling | 40 | 4 | 1.0 | 1.0 | BELTED |
-| messenger bag | 30 | 8 | 1.5 | 0.6 | BELTED |
-| MOLLE pack | 35 | 5 | 3.0 | 2.1 | BELTED |
-| net backpack | 20 | 1 | 1.0 | 2.0 | BELTED |
-| petpack | 40 | 35 | 3.0 | 0.3 | BELTED |
-| purse | 10 | 2 | 2.0 | 1.0 | BELTED |
+| makeshift knapsack | 30 | 2 | 0.2 | 0.3 | STRAPPED |
+| makeshift sling | 40 | 4 | 1.0 | 1.0 | STRAPPED |
+| messenger bag | 30 | 8 | 1.5 | 0.6 | STRAPPED |
+| MOLLE pack | 35 | 5 | 3.0 | 2.1 | STRAPPED |
+| net backpack | 20 | 1 | 1.0 | 2.0 | STRAPPED |
+| petpack | 40 | 35 | 3.0 | 0.3 | STRAPPED |
+| purse | 10 | 2 | 2.0 | 1.0 | STRAPPED |
 | pouch | 15 | 5 | 0.2 | 0.1 | WAIST |
-| military rucksack | 40 | 10 | 0.3 | 0.1 | BELTED |
-| runner pack | 20 | 1 | 0.2 | 0.4 | BELTED |
-| sling pack | 30 | 2 | 1.5 | 2.2 | BELTED |
-| travelpack | 40 | 3 | 2.0 | 2.7 | BELTED |
-| utility vest | 36 | 2 | 0.4 | 0.7 | BELTED |
-| wicker backpack | 25 | 5 | 2.0 | 1.0 | BELTED |
-| longarm bag | 50 | 8 | 2.0 | 1.2 | BELTED |
-| rifle case | 10 | 2 | 2.0 | 1.0 | BELTED |
-| leather rifle case | 10 | 2 | 4.0 | 2.0 | BELTED |
-| double rifle case | 15 | 2 | 2.0 | 1.5 | BELTED |
-| leather double rifle case | 15 | 2 | 4.0 | 3.0 | BELTED |
-| long leather rifle case | 15 | 2 | 4.0 | 3.0 | BELTED |
-| camera bag | 24 | 3 | 1.5 | 1.2 | BELTED |
-| loop of rope | 5 | 3 | 2.0 | 0.3 | BELTED |
+| military rucksack | 40 | 10 | 0.3 | 0.1 | STRAPPED |
+| runner pack | 20 | 1 | 0.2 | 0.4 | STRAPPED |
+| sling pack | 30 | 2 | 1.5 | 2.2 | STRAPPED |
+| travelpack | 40 | 3 | 2.0 | 2.7 | STRAPPED |
+| utility vest | 36 | 2 | 0.4 | 0.7 | STRAPPED |
+| wicker backpack | 25 | 5 | 2.0 | 1.0 | STRAPPED |
+| longarm bag | 50 | 8 | 2.0 | 1.2 | STRAPPED |
+| rifle case | 10 | 2 | 2.0 | 1.0 | STRAPPED |
+| leather rifle case | 10 | 2 | 4.0 | 2.0 | STRAPPED |
+| double rifle case | 15 | 2 | 2.0 | 1.5 | STRAPPED |
+| leather double rifle case | 15 | 2 | 4.0 | 3.0 | STRAPPED |
+| long leather rifle case | 15 | 2 | 4.0 | 3.0 | STRAPPED |
+| camera bag | 24 | 3 | 1.5 | 1.2 | STRAPPED |
+| loop of rope | 5 | 3 | 2.0 | 0.3 | STRAPPED |
 | bondage suit | 75 | 20 | 2.0 | 0.8 | SKINTIGHT |
 | clown suit | 95 | 17 | 0.2 | 0.1 | OUTER |
 | dinosaur suit | 100 | 26 | 3.0 | 1.2 | OUTER |
@@ -229,14 +230,14 @@
 | armored leather vest | 90 | 17 | 9.0 | 4.8 | OUTER |
 | EOD jacket | 100 | 80 | 35.0 | 4.4 | OUTER |
 | light EOD jacket | 100 | 40 | 16.3 | 4.1 | OUTER |
-| leather apron | 28 | 2 | 4.0 | 5.6 | BELTED |
+| leather apron | 28 | 2 | 4.0 | 5.6 | STRAPPED |
 | blazer | 85 | 16 | 1.5 | 0.8 | OUTER |
 | combat shirt | 95 | 5 | 0.3 | 0.6 | MIDDLE |
 | dress | 85 | 7 | 0.2 | 0.2 | MIDDLE |
 | dress shirt | 90 | 4 | 0.1 | 0.2 | MIDDLE |
 | flag shirt | 90 | 0 | 0.2 | 1.8 | MIDDLE |
-| flotation vest | 40 | 40 | 6.0 | 0.6 | BELTED |
-| makeshift flotation vest | 40 | 50 | 4.0 | 0.3 | BELTED |
+| flotation vest | 40 | 40 | 6.0 | 0.6 | STRAPPED |
+| makeshift flotation vest | 40 | 50 | 4.0 | 0.3 | STRAPPED |
 | evening gown | 75 | 14 | 0.3 | 0.2 | MIDDLE |
 | halter top | 25 | 0 | 0.1 | 0.2 | MIDDLE |
 | hoodie | 95 | 6 | 1.0 | 1.6 | OUTER |
@@ -283,7 +284,7 @@
 | compression top | 95 | 0 | 0.1 | 1.0 | SKINTIGHT |
 | undershirt | 80 | 0 | 0.1 | 0.8 | SKINTIGHT |
 | nomad jumpsuit | 93 | 8 | 6.0 | 7.0 | MIDDLE |
-| scavenger gear | 100 | 13 | 7.5 | 5.8 | BELTED |
+| scavenger gear | 100 | 13 | 7.5 | 5.8 | STRAPPED |
 | light survivor suit | 100 | 7 | 7.0 | 10.0 | MIDDLE |
 | survivor suit | 100 | 12 | 9.0 | 7.5 | MIDDLE |
 | XL survivor suit | 100 | 17 | 9.0 | 5.3 | MIDDLE |
@@ -293,11 +294,11 @@
 | sleeveless survivor duster | 34 | 6 | 3.5 | 2.0 | OUTER |
 | survivor trenchcoat | 85 | 7 | 5.2 | 6.3 | OUTER |
 | sleeveless survivor trenchcoat | 85 | 7 | 5.2 | 6.3 | OUTER |
-| survivor duffel bag | 40 | 8 | 3.0 | 1.5 | BELTED |
-| survivor backpack | 30 | 3 | 3.0 | 3.0 | BELTED |
-| survivor rucksack | 40 | 3 | 3.0 | 4.0 | BELTED |
-| survivor runner pack | 30 | 3 | 3.0 | 3.0 | BELTED |
-| survivor distributed rigging | 28 | 1 | 3.0 | 8.4 | BELTED |
+| survivor duffel bag | 40 | 8 | 3.0 | 1.5 | STRAPPED |
+| survivor backpack | 30 | 3 | 3.0 | 3.0 | STRAPPED |
+| survivor rucksack | 40 | 3 | 3.0 | 4.0 | STRAPPED |
+| survivor runner pack | 30 | 3 | 3.0 | 3.0 | STRAPPED |
+| survivor distributed rigging | 28 | 1 | 3.0 | 8.4 | STRAPPED |
 | nomad bodyglove | 100 | 1 | 4.0 | 40.0 | SKINTIGHT |
 | survivor firesuit | 100 | 10 | 7.0 | 7.0 | MIDDLE |
 | heavy survivor suit | 100 | 17 | 21.0 | 12.4 | MIDDLE |
@@ -309,9 +310,9 @@
 | winter survivor suit | 100 | 20 | 11.2 | 5.6 | MIDDLE |
 | survivor wetsuit | 100 | 10 | 5.5 | 5.5 | MIDDLE |
 | survivor belt | 15 | 2 | 4.0 | 3.0 | WAIST |
-| survivor harness | 8 | 4 | 3.0 | 0.6 | BELTED |
-
-| Name | average_coverage | average_encumbrance | average_resist | armor_efficiency | layer |
+| survivor harness | 8 | 4 | 3.0 | 0.6 | STRAPPED |
+## Head
+| Name | Coverage | Encumbrance | Resist | Efficiency | Layer |
 |-----|-----|-----|-----|-----|-----|
 | Jedi cloak | 65 | 3 | 0.3 | 0.7 | OUTER |
 | ten-gallon hat | 50 | 20 | 0.3 | 0.1 | MIDDLE |
@@ -321,7 +322,7 @@
 | bowler hat | 50 | 15 | 0.3 | 0.1 | MIDDLE |
 | chaplet | 40 | 0 | 0.1 | 0.4 | MIDDLE |
 | cowboy hat | 50 | 10 | 0.6 | 0.3 | MIDDLE |
-| drinking hat | 15 | 5 | 0.3 | 0.1 | BELTED |
+| drinking hat | 15 | 5 | 0.3 | 0.1 | STRAPPED |
 | eboshi | 60 | 10 | 0.2 | 0.1 | MIDDLE |
 | boonie hat | 65 | 10 | 0.3 | 0.2 | MIDDLE |
 | baseball cap | 50 | 10 | 0.1 | 0.1 | MIDDLE |
@@ -409,8 +410,8 @@
 | survivor wetsuit hood | 100 | 25 | 5.5 | 2.2 | OUTER |
 | scavenger cowl | 100 | 14 | 5.2 | 3.7 | MIDDLE |
 | survivor firehood | 100 | 30 | 8.8 | 2.9 | OUTER |
-
-| Name | average_coverage | average_encumbrance | average_resist | armor_efficiency | layer |
+## Eyes
+| Name | Coverage | Encumbrance | Resist | Efficiency | Layer |
 |-----|-----|-----|-----|-----|-----|
 | pair of eclipse glasses | 80 | 10 | 1.0 | 0.8 | MIDDLE |
 | leather eyepatch | 50 | 30 | 2.0 | 0.3 | SKINTIGHT |
@@ -469,8 +470,8 @@
 | nomad cowl | 95 | 12 | 4.5 | 3.6 | MIDDLE |
 | scavenger cowl | 100 | 14 | 5.2 | 3.7 | MIDDLE |
 | survivor goggles | 100 | 20 | 9.0 | 4.5 | MIDDLE |
-
-| Name | average_coverage | average_encumbrance | average_resist | armor_efficiency | layer |
+## Mouth
+| Name | Coverage | Encumbrance | Resist | Efficiency | Layer |
 |-----|-----|-----|-----|-----|-----|
 | tactical full helmet | 100 | 22 | 22.0 | 10.0 | MIDDLE |
 | barbute helm | 65 | 10 | 16.0 | 10.4 | MIDDLE |
@@ -505,8 +506,8 @@
 | faraday chainmail suit | 100 | 30 | 10.5 | 3.5 | OUTER |
 | nomad cowl | 95 | 12 | 4.5 | 3.6 | MIDDLE |
 | scavenger cowl | 100 | 14 | 5.2 | 3.7 | MIDDLE |
-
-| Name | average_coverage | average_encumbrance | average_resist | armor_efficiency | layer |
+## Arms
+| Name | Coverage | Encumbrance | Resist | Efficiency | Layer |
 |-----|-----|-----|-----|-----|-----|
 | pair of 2-by-arm guards | 28 | 9 | 7.5 | 2.3 | OUTER |
 | pair of chitin arm guards | 4 | 4 | 10.5 | 1.1 | OUTER |
@@ -586,10 +587,10 @@
 | abstract mantle | 34 | 2 | 12.0 | 20.4 | OUTER |
 | abstract mantle | 34 | 2 | 12.0 | 20.4 | OUTER |
 | abstract armored vambraces | 33 | 3 | 9.0 | 9.9 | OUTER |
-| briefcase | 10 | 30 | 4.0 | 0.1 | BELTED |
-| violin case | 10 | 30 | 16.7 | 0.6 | BELTED |
-| armband pouch | 20 | 2 | 3.0 | 3.0 | BELTED |
-| swag bag | 5 | 4 | 1.0 | 0.1 | BELTED |
+| briefcase | 10 | 30 | 4.0 | 0.1 | STRAPPED |
+| violin case | 10 | 30 | 16.7 | 0.6 | STRAPPED |
+| armband pouch | 20 | 2 | 3.0 | 3.0 | STRAPPED |
+| swag bag | 5 | 4 | 1.0 | 0.1 | STRAPPED |
 | bondage suit | 75 | 20 | 2.0 | 0.8 | SKINTIGHT |
 | clown suit | 95 | 17 | 0.2 | 0.1 | OUTER |
 | dinosaur suit | 100 | 26 | 3.0 | 1.2 | OUTER |
@@ -662,7 +663,7 @@
 | long underwear top | 95 | 3 | 0.2 | 0.6 | SKINTIGHT |
 | thermal shirt | 95 | 0 | 0.2 | 1.9 | SKINTIGHT |
 | nomad jumpsuit | 93 | 8 | 6.0 | 7.0 | MIDDLE |
-| scavenger gear | 100 | 13 | 7.5 | 5.8 | BELTED |
+| scavenger gear | 100 | 13 | 7.5 | 5.8 | STRAPPED |
 | light survivor suit | 100 | 7 | 7.0 | 10.0 | MIDDLE |
 | survivor suit | 100 | 12 | 9.0 | 7.5 | MIDDLE |
 | XL survivor suit | 100 | 17 | 9.0 | 5.3 | MIDDLE |
@@ -679,10 +680,10 @@
 | XL survivor suit | 100 | 17 | 9.0 | 5.3 | MIDDLE |
 | winter survivor suit | 100 | 20 | 11.2 | 5.6 | MIDDLE |
 | survivor wetsuit | 100 | 10 | 5.5 | 5.5 | MIDDLE |
-
-| Name | average_coverage | average_encumbrance | average_resist | armor_efficiency | layer |
+## Hands
+| Name | Coverage | Encumbrance | Resist | Efficiency | Layer |
 |-----|-----|-----|-----|-----|-----|
-| wrist bandolier | 5 | 1 | 1.0 | 0.5 | BELTED |
+| wrist bandolier | 5 | 1 | 1.0 | 0.5 | STRAPPED |
 | Jedi cloak | 65 | 3 | 0.3 | 0.7 | OUTER |
 | pair of beekeeping gloves | 100 | 10 | 4.0 | 4.0 | SKINTIGHT |
 | pair of boxing gloves | 100 | 70 | 6.0 | 0.9 | MIDDLE |
@@ -721,14 +722,14 @@
 | pair of EOD gloves | 100 | 20 | 8.8 | 4.4 | OUTER |
 | fur sleeping bag | 100 | 80 | 7.5 | 0.9 | OUTER |
 | tarpaulin | 90 | 30 | 0.2 | 0.1 | OUTER |
-| pair of saddle bags | 50 | 30 | 4.0 | 0.7 | BELTED |
+| pair of saddle bags | 50 | 30 | 4.0 | 0.7 | STRAPPED |
 | salvaged power armor | 95 | 40 | 48.0 | 11.4 | MIDDLE |
 | combat exoskeleton | 100 | 50 | 95.7 | 19.1 | MIDDLE |
 | heavy combat exoskeleton | 100 | 60 | 109.3 | 18.2 | MIDDLE |
 | field combat exoskeleton | 100 | 40 | 49.3 | 12.3 | MIDDLE |
-| briefcase | 10 | 30 | 4.0 | 0.1 | BELTED |
-| violin case | 10 | 30 | 16.7 | 0.6 | BELTED |
-| swag bag | 5 | 4 | 1.0 | 0.1 | BELTED |
+| briefcase | 10 | 30 | 4.0 | 0.1 | STRAPPED |
+| violin case | 10 | 30 | 16.7 | 0.6 | STRAPPED |
+| swag bag | 5 | 4 | 1.0 | 0.1 | STRAPPED |
 | zentai | 100 | 0 | 0.2 | 2.0 | SKINTIGHT |
 | ō-yoroi | 85 | 15 | 12.0 | 6.8 | OUTER |
 | faraday chainmail suit | 100 | 30 | 10.5 | 3.5 | OUTER |
@@ -747,14 +748,14 @@
 | pair of survivor wetsuit gloves | 100 | 25 | 1.8 | 0.7 | MIDDLE |
 | pair of heavy survivor gloves | 100 | 30 | 17.0 | 5.7 | MIDDLE |
 | pair of survivor firegloves | 100 | 30 | 5.2 | 1.7 | MIDDLE |
-
-| Name | average_coverage | average_encumbrance | average_resist | armor_efficiency | layer |
+## Legs
+| Name | Coverage | Encumbrance | Resist | Efficiency | Layer |
 |-----|-----|-----|-----|-----|-----|
-| leg ammo pouch | 15 | 0 | 2.0 | 3.0 | BELTED |
+| leg ammo pouch | 15 | 0 | 2.0 | 3.0 | STRAPPED |
 | quiver | 10 | 3 | 2.0 | 0.7 | WAIST |
 | birchbark quiver | 10 | 10 | 2.5 | 0.2 | WAIST |
-| grenade pouch | 10 | 4 | 1.5 | 0.4 | BELTED |
-| stone pouch | 10 | 4 | 1.5 | 0.4 | BELTED |
+| grenade pouch | 10 | 4 | 1.5 | 0.4 | STRAPPED |
+| stone pouch | 10 | 4 | 1.5 | 0.4 | STRAPPED |
 | pair of knee-high boots | 5 | 18 | 4.0 | 0.1 | MIDDLE |
 | pair of motorcycle police boots | 5 | 12 | 4.0 | 0.2 | OUTER |
 | pair of thigh-high boots | 20 | 13 | 4.0 | 0.6 | MIDDLE |
@@ -794,8 +795,8 @@
 | tunic | 75 | 3 | 0.3 | 0.8 | MIDDLE |
 | rag tunic | 65 | 5 | 0.3 | 0.4 | MIDDLE |
 | tuxedo | 95 | 13 | 0.5 | 0.4 | MIDDLE |
-| holster | 1 | 3 | 2.0 | 0.1 | BELTED |
-| XL holster | 4 | 2 | 2.0 | 0.4 | BELTED |
+| holster | 1 | 3 | 2.0 | 0.1 | STRAPPED |
+| XL holster | 4 | 2 | 2.0 | 0.4 | STRAPPED |
 | pair of 2-by-shin guards | 28 | 9 | 7.5 | 2.3 | OUTER |
 | pair of chitin leg guards | 4 | 2 | 14.0 | 2.8 | OUTER |
 | turnout trousers | 100 | 24 | 3.3 | 1.4 | OUTER |
@@ -875,12 +876,12 @@
 | abstract armored skirt | 34 | 1 | 12.0 | 40.8 | OUTER |
 | abstract armored skirt | 34 | 1 | 12.0 | 40.8 | OUTER |
 | abstract armored greaves | 33 | 3 | 9.0 | 9.9 | OUTER |
-| scabbard | 3 | 3 | 2.2 | 0.2 | BELTED |
-| sheath | 1 | 0 | 2.0 | 0.2 | BELTED |
-| birchbark sheath | 1 | 0 | 2.5 | 0.2 | BELTED |
-| giant novelty backpack | 24 | 15 | 2.0 | 0.3 | BELTED |
-| pair of drop leg pouches | 20 | 2 | 0.2 | 0.2 | BELTED |
-| bookstrap | 6 | 0 | 2.0 | 1.2 | BELTED |
+| scabbard | 3 | 3 | 2.2 | 0.2 | STRAPPED |
+| sheath | 1 | 0 | 2.0 | 0.2 | STRAPPED |
+| birchbark sheath | 1 | 0 | 2.5 | 0.2 | STRAPPED |
+| giant novelty backpack | 24 | 15 | 2.0 | 0.3 | STRAPPED |
+| pair of drop leg pouches | 20 | 2 | 0.2 | 0.2 | STRAPPED |
+| bookstrap | 6 | 0 | 2.0 | 1.2 | STRAPPED |
 | bondage suit | 75 | 20 | 2.0 | 0.8 | SKINTIGHT |
 | clown suit | 95 | 17 | 0.2 | 0.1 | OUTER |
 | dinosaur suit | 100 | 26 | 3.0 | 1.2 | OUTER |
@@ -927,7 +928,7 @@
 | shark suit | 100 | 30 | 12.0 | 4.0 | MIDDLE |
 | cataphract armor | 19 | 13 | 17.5 | 2.6 | OUTER |
 | cuirass | 19 | 9 | 16.0 | 3.4 | OUTER |
-| leather apron | 28 | 2 | 4.0 | 5.6 | BELTED |
+| leather apron | 28 | 2 | 4.0 | 5.6 | STRAPPED |
 | dress | 85 | 7 | 0.2 | 0.2 | MIDDLE |
 | evening gown | 75 | 14 | 0.3 | 0.2 | MIDDLE |
 | French maid clothes | 95 | 5 | 0.1 | 0.2 | MIDDLE |
@@ -950,7 +951,7 @@
 | compression shorts | 26 | 0 | 0.2 | 0.5 | SKINTIGHT |
 | compression shorts | 26 | 0 | 0.2 | 0.5 | SKINTIGHT |
 | nomad jumpsuit | 93 | 8 | 6.0 | 7.0 | MIDDLE |
-| scavenger gear | 100 | 13 | 7.5 | 5.8 | BELTED |
+| scavenger gear | 100 | 13 | 7.5 | 5.8 | STRAPPED |
 | light survivor suit | 100 | 7 | 7.0 | 10.0 | MIDDLE |
 | survivor suit | 100 | 12 | 9.0 | 7.5 | MIDDLE |
 | XL survivor suit | 100 | 17 | 9.0 | 5.3 | MIDDLE |
@@ -960,7 +961,7 @@
 | survivor cargo pants | 100 | 10 | 7.0 | 7.0 | MIDDLE |
 | survivor duster | 85 | 6 | 5.2 | 7.4 | OUTER |
 | sleeveless survivor duster | 34 | 6 | 3.5 | 2.0 | OUTER |
-| survivor distributed rigging | 28 | 1 | 3.0 | 8.4 | BELTED |
+| survivor distributed rigging | 28 | 1 | 3.0 | 8.4 | STRAPPED |
 | nomad bodyglove | 100 | 1 | 4.0 | 40.0 | SKINTIGHT |
 | survivor firesuit | 100 | 10 | 7.0 | 7.0 | MIDDLE |
 | heavy survivor suit | 100 | 17 | 21.0 | 12.4 | MIDDLE |
@@ -970,10 +971,10 @@
 | XL survivor suit | 100 | 17 | 9.0 | 5.3 | MIDDLE |
 | winter survivor suit | 100 | 20 | 11.2 | 5.6 | MIDDLE |
 | survivor wetsuit | 100 | 10 | 5.5 | 5.5 | MIDDLE |
-
-| Name | average_coverage | average_encumbrance | average_resist | armor_efficiency | layer |
+## Feet
+| Name | Coverage | Encumbrance | Resist | Efficiency | Layer |
 |-----|-----|-----|-----|-----|-----|
-| ankle ammo pouch | 5 | 1 | 2.0 | 1.0 | BELTED |
+| ankle ammo pouch | 5 | 1 | 2.0 | 1.0 | STRAPPED |
 | pair of cord sandals | 40 | 10 | 2.0 | 0.8 | MIDDLE |
 | pair of boots | 90 | 12 | 6.2 | 4.7 | MIDDLE |
 | pair of turnout boots | 100 | 40 | 9.0 | 2.2 | MIDDLE |
@@ -1032,7 +1033,7 @@
 | pair of tentacle stockings | 40 | 8 | 0.1 | 0.1 | SKINTIGHT |
 | pair of tabi | 100 | 0 | 0.2 | 2.0 | SKINTIGHT |
 | pair of gi tabi | 100 | 0 | 0.2 | 2.0 | SKINTIGHT |
-| ankle holster | 5 | 3 | 2.0 | 0.3 | BELTED |
+| ankle holster | 5 | 3 | 2.0 | 0.3 | STRAPPED |
 | pair of fishing waders | 100 | 19 | 4.0 | 2.1 | MIDDLE |
 | fur sleeping bag | 100 | 80 | 7.5 | 0.9 | OUTER |
 | tarpaulin | 90 | 30 | 0.2 | 0.1 | OUTER |
@@ -1040,8 +1041,8 @@
 | combat exoskeleton | 100 | 50 | 95.7 | 19.1 | MIDDLE |
 | heavy combat exoskeleton | 100 | 60 | 109.3 | 18.2 | MIDDLE |
 | field combat exoskeleton | 100 | 40 | 49.3 | 12.3 | MIDDLE |
-| ankle sheath | 5 | 2 | 2.0 | 0.5 | BELTED |
-| birchbark ankle sheath | 5 | 2 | 2.5 | 0.6 | BELTED |
+| ankle sheath | 5 | 2 | 2.0 | 0.5 | STRAPPED |
+| birchbark ankle sheath | 5 | 2 | 2.5 | 0.6 | STRAPPED |
 | thick wool onesie | 100 | 18 | 1.0 | 0.6 | MIDDLE |
 | zentai | 100 | 0 | 0.2 | 2.0 | SKINTIGHT |
 | faraday chainmail suit | 100 | 30 | 10.5 | 3.5 | OUTER |
@@ -1061,3 +1062,5 @@
 | nomad bodyglove | 100 | 1 | 4.0 | 40.0 | SKINTIGHT |
 | pair of survivor fireboots | 100 | 35 | 7.5 | 2.1 | MIDDLE |
 | pair of heavy survivor boots | 100 | 35 | 20.0 | 5.7 | MIDDLE |
+
+
