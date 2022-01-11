@@ -14,6 +14,14 @@ f3 = open(limbs_data_path)
 material_json = json.load(f1)
 limbs_json = json.load(f3)
 armor_efficiency_list = []
+armor_efficiency_list_torso = []
+armor_efficiency_list_head = []
+armor_efficiency_list_eyes = []
+armor_efficiency_list_mouth = []
+armor_efficiency_list_arms = []
+armor_efficiency_list_hands = []
+armor_efficiency_list_legs = []
+armor_efficiency_list_feet = []
 pattern = re.compile("_l$")
 for root, dirs, files in os.walk(armor_data_path):
     for file in files:
@@ -111,15 +119,56 @@ for root, dirs, files in os.walk(armor_data_path):
                     armor_efficiency = (armor_efficiency / int(armor_object_dict["average_encumbrance"]))
                 # print("armor efficiency: " + str(round(armor_efficiency, 1)))
                 armor_object_dict["armor_efficiency"] = str(round(armor_efficiency, 1))
+                if "flags" in armor_object:
+                    for flag in armor_object["flags"]:
+                        if flag == "OUTER":
+                            armor_object_dict["layer"] = str("OUTER")
+                        if flag == "SKINTIGHT":
+                            armor_object_dict["layer"] = str("SKINTIGHT")
+                        if flag == "BELTED":
+                            armor_object_dict["layer"] = str("BELTED")
+                        if flag == "WAIST":
+                            armor_object_dict["layer"] = str("WAIST")
+                if "layer" not in armor_object_dict:
+                    armor_object_dict["layer"] = str("MIDDLE")
                 if armor_object_dict["armor_efficiency"] != "0.0":
-                    armor_efficiency_list.append(armor_object_dict)
+                    for body_part in armor_info:
+                        if "covers" in body_part:
+                            for covers in body_part["covers"]:
+                                if covers == "torso":
+                                    armor_efficiency_list_torso.append(armor_object_dict)
+                                if covers == "head":
+                                    armor_efficiency_list_head.append(armor_object_dict)
+                                if covers == "eyes":
+                                    armor_efficiency_list_eyes.append(armor_object_dict)
+                                if covers == "mouth":
+                                    armor_efficiency_list_mouth.append(armor_object_dict)
+                                if covers == "arm_r":
+                                    armor_efficiency_list_arms.append(armor_object_dict)
+                                if covers == "hand_r":
+                                    armor_efficiency_list_hands.append(armor_object_dict)
+                                if covers == "leg_r":
+                                    armor_efficiency_list_legs.append(armor_object_dict)
+                                if covers == "foot_r":
+                                    armor_efficiency_list_feet.append(armor_object_dict)
 
         f2.close()
     f1.close()
 # print(armor_efficiency_list)
-markdown = Tomark.table(armor_efficiency_list)
+markdown_list = []
+markdown_list.append(armor_efficiency_list_torso)
+markdown_list.append(armor_efficiency_list_head)
+markdown_list.append(armor_efficiency_list_eyes)
+markdown_list.append(armor_efficiency_list_mouth)
+markdown_list.append(armor_efficiency_list_arms)
+markdown_list.append(armor_efficiency_list_hands)
+markdown_list.append(armor_efficiency_list_legs)
+markdown_list.append(armor_efficiency_list_feet)
+
 original_stdout = sys.stdout # Save a reference to the original standard output
 with open('markdow-output.txt', 'w+') as f:
-    sys.stdout = f # Change the standard output to the file we created.
-    print(markdown)
-    sys.stdout = original_stdout # Reset the standard output to its original value
+    for lists in markdown_list:
+        sys.stdout = f # Change the standard output to the file we created.
+        markdown_compiled = Tomark.table(lists)
+        print(markdown_compiled)
+        sys.stdout = original_stdout # Reset the standard output to its original value
