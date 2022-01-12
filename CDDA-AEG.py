@@ -23,17 +23,20 @@ armor_efficiency_list_hands = []
 armor_efficiency_list_legs = []
 armor_efficiency_list_feet = []
 pattern = re.compile("_l$")
+
 for root, dirs, files in os.walk(armor_data_path):
     for file in files:
         f2 = open(os.path.join(root, file), "r")
         armor_json = json.load(f2)
+
         for armor_object in armor_json:
+            if "copy-from" in armor_object:
+                continue
             average_coverage = []
+            average_coverage_part = []
             average_encumbrance = []
             average_resist = []
             armor_object_dict = {}
-            if "copy-from" in armor_object:
-                continue
             if "name" in armor_object:
                 armor_name = armor_object["name"]
                 if isinstance(armor_name, str):
@@ -52,32 +55,29 @@ for root, dirs, files in os.walk(armor_data_path):
                 armor_info = armor_object["armor"]
 
                 for body_part in armor_info:
-                    if "coverage" in body_part:
-                        if "specifically_covers" in body_part:
-                            for specificall_part in body_part["specifically_covers"]:
-                                if pattern.search(specificall_part):
-                                    continue
-                                for limb_object in limbs_json:
-                                    if "max_coverage" in limb_object:
-                                        if limb_object["id"] == specificall_part:
-                                            coverage_multiplayer = (limb_object["max_coverage"] / 100)
-                                            # print(body_part["coverage"])
-                                            # print(coverage_multiplayer)
-                                            average_coverage.append(body_part["coverage"] * coverage_multiplayer)
-                                            average_coverage = round(sum(average_coverage) / len(average_coverage))
-                                            # print("average coverage: " + str(average_coverage))
-                                            armor_object_dict["Coverage"] = str(average_coverage)
-                                            average_coverage = []
-                        else:
-                            average_coverage.append(body_part["coverage"])
-                            average_coverage = round(sum(average_coverage) / len(average_coverage))
+                    if "coverage" in body_part and "covers" in body_part:
+                        for exact_part in body_part["covers"]:
                             # print("average coverage: " + str(average_coverage))
-                            armor_object_dict["average_coverage"] = str(average_coverage)
-                            average_coverage = []
-                    # else:
-                    #     average_coverage.append(0)
-                    #     armor_object_dict["Coverage"] = str(average_coverage)
-                    #     average_coverage = []
+                            if "specifically_covers" in body_part:
+                                for specificall_part in body_part["specifically_covers"]:
+                                    if pattern.search(specificall_part):
+                                        continue
+                                    for limb_object in limbs_json:
+                                        if "max_coverage" in limb_object:
+                                            if limb_object["id"] == specificall_part:
+                                                coverage_multiplayer = (limb_object["max_coverage"] / 100)
+                                                # print(body_part["coverage"])
+                                                # print(coverage_multiplayer)
+                                                average_coverage_part.append(body_part["coverage"] * coverage_multiplayer)
+                                                # print("average coverage: " + str(average_coverage))
+                            else:
+                                average_coverage_part.append(body_part["coverage"])
+                            average_coverage.append(sum(average_coverage_part))
+                            average_coverage_part = []
+                if average_coverage != []:
+                    average_coverage = round(sum(average_coverage) / len(average_coverage))
+                    armor_object_dict["Coverage"] = str(average_coverage)
+                    average_coverage = []
 
                 for body_part in armor_info:
                     if "encumbrance" in body_part:
@@ -117,6 +117,7 @@ for root, dirs, files in os.walk(armor_data_path):
                         average_resist = (sum(average_resist) / len(average_resist)) * material_thickness
                         # print("average resist: " + str(average_resist))
                         armor_object_dict["Resist"] = str(round(average_resist, 1))
+
             if "Coverage" in armor_object_dict and "Encumbrance" in armor_object_dict and "Resist" in armor_object_dict:
                 armor_efficiency = (int(armor_object_dict["Coverage"]) / 10) * float(armor_object_dict["Resist"])
                 if "Encumbrance" in armor_object_dict and armor_object_dict["Encumbrance"] != "0":
@@ -169,16 +170,19 @@ markdown_list.append(armor_efficiency_list_hands)
 markdown_list.append(armor_efficiency_list_legs)
 markdown_list.append(armor_efficiency_list_feet)
 
+names = ["Torso", "Head", "Eyes", "Mouth", "Arms", "Hands", "Legs", "Feet"]
 original_stdout = sys.stdout  # Save a reference to the original standard output
+i = 0
 with open('markdow_output.txt', 'w+') as f:
     for lists in markdown_list:
         sys.stdout = f  # Change the standard output to the file we created.
         markdow_output = Tomark.table(lists)
-        print("##")
+        print("## " + names[i])
         print("<details>")
         print("  <summary>Spoiler</summary>")
         print()
         print(markdow_output)
         print("</details>")
         print()
+        i += 1
         sys.stdout = original_stdout  # Reset the standard output to its original value
